@@ -1,0 +1,60 @@
+tigra/
+├─ contracts/
+│  ├─ TigraToken.sol
+│  ├─ AssetRegistry.sol
+│  ├─ RoyaltyEngine.sol
+│  └─ interfaces/
+│     └─ IAssetRegistry.sol
+├─ backend/
+│  ├─ src/
+│  │  ├─ index.ts
+│  │  ├─ config.ts
+│  │  ├─ routes/
+│  │  │  ├─ assets.ts
+│  │  │  ├─ usage.ts
+│  │  │  └─ health.ts
+│  │  ├─ controllers/
+│  │  │  ├─ assetsController.ts
+│  │  │  └─ usageController.ts
+│  │  ├─ services/
+│  │  │  ├─ blockchainClient.ts
+│  │  │  ├─ registryService.ts
+│  │  │  ├─ royaltyService.ts
+│  │  │  ├─ livepeerService.ts
+│  │  │  ├─ goldskyService.ts
+│  │  │  ├─ coinbaseService.ts
+│  │  │  ├─ crossmintService.ts
+│  │  │  ├─ tenderlyService.ts
+│  │  │  ├─ duneService.ts
+│  │  │  ├─ ipworldService.ts
+│  │  │  ├─ dynamicService.ts
+│  │  │  └─ juxtamodeService.ts
+│  │  ├─ models/
+│  │  │  └─ index.ts
+│  │  └─ utils/
+│  │     ├─ crypto.ts
+│  │     └─ logger.ts
+│  ├─ package.json
+│  ├─ tsconfig.json
+│  └─ .env.example
+├─ frontend/
+│  ├─ src/
+│  │  ├─ pages/
+│  │  │  ├─ index.tsx
+│  │  │  ├─ assets.tsx
+│  │  │  └─ usage.tsx
+│  │  ├─ components/
+│  │  │  ├─ Layout.tsx
+│  │  │  ├─ AssetForm.tsx
+│  │  │  └─ UsageTable.tsx
+│  │  └─ lib/
+│  │     └─ api.ts
+│  ├─ package.json
+│  ├─ next.config.mjs
+│  ├─ tailwind.config.ts
+│  ├─ postcss.config.mjs
+│  └─ tsconfig.json
+├─ hardhat.config.ts
+├─ package.json
+├─ README.md
+└─ .gitignore
